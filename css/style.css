@@ -1,0 +1,23 @@
+.grid {
+  display: grid;
+  grid-template-columns: 2% 3% 90% 3% 2%;
+}
+
+.grid img {
+  grid-start: 3/span 1;
+  width: 100%;
+  height: auto;
+}
+
+/* .grid img:nth-child(even) {
+    border: 5px dashed orange;
+}
+
+.item7 {
+    grid-column: 1 / 4;
+}
+
+.item1 {
+    border: 5px solid green;
+    padding: 10px;
+} */
